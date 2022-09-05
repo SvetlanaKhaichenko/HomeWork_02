@@ -1,6 +1,6 @@
 ﻿int [] mass (int []x, int a)
 {
-    for (int i = 5; i >= 0; i--)
+    for (int i = x.Length - 1; i >= 0; i--)
 {
     x [i] = a % 10;
     a = a / 10;
